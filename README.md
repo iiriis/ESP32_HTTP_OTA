@@ -33,6 +33,10 @@ const char* firmware_url = "http://<server_IP>:<PORT_NO>/firmware.bin";
 const char* firmware_ver_url = "http://<server_IP>:<PORT_NO>/src/firmware_ver.h";
 ```
 
+> [!IMPORTANT]
+> Make sure to keep the fw_version.h file.
+
+
 ### Example
 
 If `firmware.bin` is located at `C:/esp_firmware/firmware.bin` and `firmware_ver.h` is at `C:/esp_firmware/src/firmware_ver.h`, and you run the HTTP server from the `C:/esp_firmware/` directory, the definitions in your ESP32 firmware should look like this:
